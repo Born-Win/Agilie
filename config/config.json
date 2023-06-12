@@ -1,0 +1,18 @@
+{
+    "dev": {
+        "host": "localhost",
+        "username": "postgres",
+        "password": "postgres",
+        "database": "dev",
+        "dialect": "postgres",
+        "seederStorage": "sequelize"
+    },
+    "test": {
+        "host": "localhost",
+        "username": "postgres",
+        "password": "postgres",
+        "database": "test",
+        "dialect": "postgres",
+        "seederStorage": "sequelize"
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "apiDomain": "http://localhost:3000",
+  "postgresql": {
+      "url": "postgres://postgres:postgres@localhost:5432/test",
+      "options": {
+        "dialect": "postgres",
+        "logging": false,
+        "dialectOptions": {
+          "ssl": false
+        }
+      }
+  },
+  "kraken": {
+    "websoketUrl": "wss://ws.kraken.com",
+    "subscription": {
+      "name": "ticker"
+    },
+    "reconnectInterval": 5000,
+    "reconnectAttempts": 5
+  },
+  "cron": {
+    "time": "00 0 0 * * *"
+  }
+}
